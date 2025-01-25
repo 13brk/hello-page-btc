@@ -5,7 +5,7 @@
 ## Progress
 
 - On JAN 24 2025 this was submitted to Google Web Store. Hoping it gets approved!
-- For installation instructions see https://13brk.github.io/hello-page-btc/install
+- For installation instructions see [install.md](install.md)
 
 ## Screenshot
 
