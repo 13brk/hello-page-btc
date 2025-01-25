@@ -9,7 +9,7 @@
 
 ## Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](media/screenshot.png)
 
 1. Time, BTC price, currency selector and countdown timer
 2. Bookmarks from you bookmarks bar
