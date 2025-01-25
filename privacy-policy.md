@@ -36,4 +36,4 @@ We may update this Privacy Policy from time to time. We will notify users of any
 
 If you have any questions about this Privacy Policy, please create an issue on our GitHub repository.
 
-Last updated: December 2023
+Last updated: January 2025
