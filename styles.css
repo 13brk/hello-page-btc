@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1a1a1a;
+  /* Fallback color */
+  transition: background-image 0.5s ease-in-out;
+  gap: 2rem;
+}
+
+.container,
+.quote-container {
+  width: 600px;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+.time {
+  font-size: 8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.chuck-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.quote {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 200;
+}
+
+.bitcoin {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: #FFB119;
+}
+
+.currency-select {
+  background: transparent;
+  border: none;
+  color: #FFB119;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.currency-select:hover {
+  background: rgba(255, 177, 25, 0.1);
+}
+
+.currency-select option {
+  background: #1a1a1a;
+  color: #FFB119;
+}
+
+.bookmarks-container {
+  width: 600px;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+.bookmarks-grid {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bookmarks-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.bookmarks-grid::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.bookmarks-grid::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.bookmarks-grid::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+  width: 42px;
+}
+
+.bookmark-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bookmark-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.bookmark-empty {
+  text-align: center;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+.countdown {
+  font-size: 0.9rem;
+  color: rgba(255, 177, 25, 0.6);
+  margin-top: 0.5rem;
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: right;
+  pointer-events: none;
+}
+
+.image-description {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.5rem;
+}
+
+.help-text {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}

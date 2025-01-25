@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Minimal Tab with Bitcoin price and bookmarks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="time" id="time">12:00</div>
+    <div class="bitcoin-container">
+      <div class="bitcoin">
+        BTC: <span id="bitcoin-price">$0</span>
+        <select id="currency-select" class="currency-select">
+          <option value="usd">USD</option>
+          <option value="eur">EUR</option>
+          <option value="gbp">GBP</option>
+          <option value="jpy">JPY</option>
+          <option value="aud">AUD</option>
+          <option value="cad">CAD</option>
+          <option value="chf">CHF</option>
+          <option value="cny">CNY</option>
+          <option value="inr">INR</option>
+        </select>
+      </div>
+      <div class="countdown" id="countdown">60s</div>
+    </div>
+  </div>
+  <div class="bookmarks-container">
+    <div class="bookmarks-grid" id="bookmarks"></div>
+  </div>
+  <div class="quote-container">
+    <img id="chuck-icon" class="chuck-icon" alt="Chuck Norris">
+    <div class="quote" id="quote"></div>
+  </div>
+  <div class="bottom-right">
+    <div class="image-description" id="image-description"></div>
+    <div class="help-text">Tap background to see image</div>
+  </div>
+  <script src="newtab.js"></script>
+</body>
+
+</html>
